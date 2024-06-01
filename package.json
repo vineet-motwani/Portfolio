@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vineetmotwani.github.io/portfolio/",
+  "homepage": "https://vineetmotwani.github.io/Portfolio/",
   "name": "personal_portfolio",
   "private": true,
   "version": "1.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -22,6 +22,7 @@
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
     "framer-motion": "^9.0.7",
+    "gh-pages": "^6.1.1",
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
