@@ -1,4 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
+import { useMediaQuery } from 'react';
+const isLaptopOrComputer = useMediaQuery('(min-width: 768px)');
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, SocialIcons } from "./components";
 
@@ -10,7 +12,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <SocialIcons />
+        {isLaptopOrComputer && <SocialIcons />}
         <About />
         <Experience />
         <Tech />

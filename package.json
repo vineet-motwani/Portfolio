@@ -18,6 +18,7 @@
     "@emotion/styled": "^11.11.5",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@mui/material": "^5.15.19",
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
