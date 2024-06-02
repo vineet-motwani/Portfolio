@@ -1,10 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
-import { useMediaQuery } from 'react';
-const isLaptopOrComputer = useMediaQuery('(min-width: 768px)');
+import { useMediaQuery } from "@uidotdev/usehooks";
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, SocialIcons } from "./components";
 
 const App = () => {
+  const isLaptopOrComputer = useMediaQuery('(min-width: 1260px)');
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
